@@ -1,0 +1,37 @@
+.about-page__container {
+    background-image: 
+        url(/img/blobs/about/blob7.svg), 
+        url(/img/blobs/about/blob8.svg),
+        url(/img/blobs/about/blob9.svg);
+    background-position-y: -282px, 783px, 1363px;    
+    background-repeat: no-repeat;    
+    height: 1450px;
+    width: 100%;
+}
+
+.about-intro__container {
+    height: 240px;
+    padding-top: 28px;
+}
+
+.about-intro {
+    background-color: red;
+    height: 221px;
+    margin: 0 auto;
+    width: 358px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 950px) {
+    .about-page__container {
+        background-image: 
+            url(/img/blobs/about/blob10.svg), 
+            url(/img/blobs/about/blob12.svg),
+            url(/img/blobs/about/blob11.svg);
+        background-position-y: -82px, 493px, 704px; 
+        height: 1012px;
+    }
+}
