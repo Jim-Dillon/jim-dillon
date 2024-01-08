@@ -15,10 +15,32 @@
 }
 
 .about-intro {
-    background-color: red;
+    /* background-color: red; */
     height: 221px;
     margin: 0 auto;
     width: 358px;
+}
+
+.about-intro__title p {
+    color: #6C39FF;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.about-intro__para {
+    margin-top: 6px;
+}
+
+.about-intro__para p {
+    color: #474747;
+    font-family: 'KoHo', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 
