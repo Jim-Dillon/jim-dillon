@@ -1,0 +1,34 @@
+.projects-intro__container {
+    padding-top: 28px;
+}
+
+.projects-intro {
+    margin: 0 auto;
+    width: 358px;
+}
+
+.projects-intro__title p {
+    color: #6C39FF;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.projects-intro__para {
+    margin-top: 6px;
+}
+
+.projects-intro__para p {
+    color: #474747;
+    font-family: 'KoHo', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.snowman-container {
+    margin-top: 40px;
+}

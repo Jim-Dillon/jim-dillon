@@ -20,6 +20,8 @@
 .home-intro__para p {
     font-family: 'KoHo', sans-serif;
     font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
@@ -139,8 +141,10 @@
 }
 
 .home-card__content {
+    color: black;
     font-family: 'KoHo', sans-serif;
     font-size: 16px;
+    font-weight: 300;
 }
 
 .home-card__link {
