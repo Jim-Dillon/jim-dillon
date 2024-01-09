@@ -78,6 +78,31 @@
     animation: cardHoverBump 0.1s linear forwards;
 }
 
+/* TEMPORARY UNTIL LFUG BACK */
+
+.home-card__two:hover {
+    animation: none;
+    background-color: #F7F7F7;
+    border: 2px solid #C0C0C0;
+    cursor: not-allowed;
+}
+
+.home-card__two:hover img, .home-card__two:hover div {
+    opacity: 0.7;
+} 
+
+.home-card__two:hover .home-card__link {
+    background-color: #F7F7F7;
+    border-bottom: 2px solid #6C39FF;
+}
+
+.home-card__two .home-card__link:hover .right-arrow {
+    animation: none;
+}
+
+
+/* END OF TEMP CODE */
+
 @keyframes cardHoverBump {
     0% {}
     100% {

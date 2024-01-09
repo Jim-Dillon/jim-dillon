@@ -93,7 +93,7 @@
 
 .html-bar, .css-bar {
     left: 199px;
-    width: 8%;
+    width: 0%;
 }
 
 .js-bar {
@@ -165,11 +165,7 @@
         padding-top: 18px;
     }
 
-    .about-intro {
-        width: 450px;
-    }
-
-    .about-software {
+    .about-intro, .about-software {
         width: 450px;
     }
 
@@ -179,7 +175,7 @@
 
     .html-bar, .css-bar {
         left: 276px;
-        width: 10%;
+        width: 0%;
     }
 
     .js-bar {
@@ -228,7 +224,55 @@
             url(/img/blobs/about/blob10.svg), 
             url(/img/blobs/about/blob12.svg),
             url(/img/blobs/about/blob11.svg);
+        background-position-y: -82px, 180px, 555px; 
+        display: flex;
+        flex-direction: row-reverse;
+        height: 800px;
+        justify-content: center;
+        padding-top: 60px;
+    }
+
+    .about-content__container {
+        margin: 0 auto;
+        margin-left: 30px;
+        padding-top: 0px;
+    }
+
+    .about-intro__container {
+        padding-top: 0px;
+    }
+
+    .about-image__container {
+        margin-right: 30px;
+        width: 365px;
+    }
+
+    .about-image {
+        width: 365px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .about-page__container {
+        background-image: 
+            url(/img/blobs/about/blob10.svg), 
+            url(/img/blobs/about/blob12.svg),
+            url(/img/blobs/about/blob11.svg);
         background-position-y: -82px, 493px, 704px; 
-        height: 1012px;
+        height: 1000px;
+        padding-top: 90px;
+    }
+
+    .about-content__container {
+        margin-left: 73px;
+    }
+
+    .about-image__container {
+        margin-right: 73px;
+    }
+
+    .about-image__container, .about-image {
+        width: 435px;
     }
 }
