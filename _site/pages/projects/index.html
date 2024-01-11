@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="/CSS/projects.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Knewave&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Knewave&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    
 </head>
 <body>
     <header>
@@ -70,23 +74,120 @@
             <p>Personal projects</p>
         </div>
         <div class="projects-intro__para">
-            <p>These are a few bits and bobs that I've either been working on in my spare time, or some cool parts from bigger projects that I liked.</p>
+            <p>These are a few bits and bobs that I've either been working on in my spare time, or some cool parts from bigger projects that I wanted to show off.</p>
+        </div>
+    </div>
+</div>
+
+<div class="trumps-container">
+    <iframe src="https://www.midcardwrestling.com/trumps/" class="trumps-iframe" width="100%"></iframe>
+    <div class="trumps-content">
+        <div class="trumps-title">
+            <p>Wrestling Top Trumps</p>
+        </div>
+        <div class="trumps-para">
+            <p>This Top Trumps wrestling game was my proudest achievement from the first year of my dev experience. Mid-card Wrestling was the first site I ever built, originally just a space for hosting blogs about my contentious wrestling opinions. My brother suggested I test my skills by building an interactive game, so I thought it could be fun to play Top Trumps against <i><b>'the computer'</b></i> (a randomised JavaScript array).</p>
+            <p class="second-p">Outside of some basic dropdown menus, this was my first experience with more complex JavaScript, a challenge I really enjoyed. The functionality was achieved by creating two arrays of wrestler cards (js objects) for the player and computer, acting like decks. Each card/object was assigned a value corresponding to the OVR rating shown. When the game starts, an object is selected from each array at random and is then shown on the screen in its card form. The value of each object is calculated, and the object/card with the highest value is declared the winner.</p>
         </div>
     </div>
 </div>
 <div class="snowman-container">
-    <iframe height="450" style="width: 100%;" scrolling="no" title="Snowman Animation" src="https://codepen.io/JamesDillon/embed/dyaENYK?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-        See the Pen <a href="https://codepen.io/JamesDillon/pen/dyaENYK">
+    <p class="codepen snowman-iframe" data-height="450" width="90%" data-default-tab="result" data-slug-hash="dyaENYK" data-user="JamesDillon" style="height: 450; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/JamesDillon/pen/dyaENYK">
         Snowman Animation</a> by James Dillon (<a href="https://codepen.io/JamesDillon">@JamesDillon</a>)
-        on <a href="https://codepen.io">CodePen</a>.
-      </iframe>
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <div class="snowman-content">
+        <div class="snowman-title">
+            <p>Snowman Animation</p>
+        </div>
+        <div class="snowman-para">
+            <p>Feeling like a festive elf, this past Christmas I decided to test my animation chops and make a snowman disappear using CSS. Aside from the creativity involved with the animation itself, I had fun learning how to layer elements, utilising z-index to build a dynamic UI. If you need an emotional ad ready for next Christmas, I am available. Feel free to check out the end product and the code behind it.</p>
+        </div>
+    </div>
 </div>
-<!-- <div class="trumps-container__crop">
-    <iframe src="https://www.midcardwrestling.com/trumps/" class="trumps-content" width="100%" height="600"></iframe>
-</div> -->
+<div class="coffee-container">
+    <p class="codepen" data-height="380" data-default-tab="result" data-slug-hash="xxBEZWQ" data-user="JamesDillon" style="height: 380px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/JamesDillon/pen/xxBEZWQ">
+        Untitled</a> by James Dillon (<a href="https://codepen.io/JamesDillon">@JamesDillon</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <div class="coffee-content">
+        <div class="coffee-title">
+            <p>Coffee Animation</p>
+        </div>
+        <div class="coffee-para">
+            <p>Feeling like a festive elf, this past Christmas I decided to test my animation chops and make a snowman disappear using CSS. Aside from the creativity involved with the animation itself, I had fun learning how to layer elements, utilising z-index to build a dynamic UI. If you need an emotional ad ready for next Christmas, I am available. Feel free to check out the end product and the code behind it.</p>
+        </div>
+    </div>
+</div>
+<div class="toaster-container">
+    <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="BabLoGg" data-user="JamesDillon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/JamesDillon/pen/BabLoGg">
+        Toaster Animation</a> by James Dillon (<a href="https://codepen.io/JamesDillon">@JamesDillon</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <div class="toaster-content">
+        <div class="toaster-title">
+            <p>Toaster Animation</p>
+        </div>
+        <div class="toaster-para">
+            <p>Feeling like a festive elf, this past Christmas I decided to test my animation chops and make a snowman disappear using CSS. Aside from the creativity involved with the animation itself, I had fun learning how to layer elements, utilising z-index to build a dynamic UI. If you need an emotional ad ready for next Christmas, I am available. Feel free to check out the end product and the code behind it.</p>
+        </div>
+    </div>
+</div>
+<div class="kettle-container">
+    <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="QWoKmjo" data-user="JamesDillon" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/JamesDillon/pen/QWoKmjo">
+        Untitled</a> by James Dillon (<a href="https://codepen.io/JamesDillon">@JamesDillon</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <div class="kettle-content">
+        <div class="kettle-title">
+            <p>Kettle Animation</p>
+        </div>
+        <div class="kettle-para">
+            <p>Feeling like a festive elf, this past Christmas I decided to test my animation chops and make a snowman disappear using CSS. Aside from the creativity involved with the animation itself, I had fun learning how to layer elements, utilising z-index to build a dynamic UI. If you need an emotional ad ready for next Christmas, I am available. Feel free to check out the end product and the code behind it.</p>
+        </div>
+    </div>
+</div>
+<div class="modal-container">
+    <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="oNmJgWo" data-user="JamesDillon" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+        <span>See the Pen <a href="https://codepen.io/JamesDillon/pen/oNmJgWo">
+        Modal Animation</a> by James Dillon (<a href="https://codepen.io/JamesDillon">@JamesDillon</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <div class="modal-content">
+        <div class="modal-title">
+            <p>Kettle Animation</p>
+        </div>
+        <div class="modal-para">
+            <p>Feeling like a festive elf, this past Christmas I decided to test my animation chops and make a snowman disappear using CSS. Aside from the creativity involved with the animation itself, I had fun learning how to layer elements, utilising z-index to build a dynamic UI. If you need an emotional ad ready for next Christmas, I am available. Feel free to check out the end product and the code behind it.</p>
+        </div>
+    </div>
+</div>
+<div class="toggle-container">
+    <div class='toggle-button'>
+        <div class='toggle'>
+          <div class='toggle-circle' onClick='toggleClasses(this)'></div>
+          <div class='toggle-words toggle-words__on'>ON</div>
+          <div class='toggle-words toggle-words__off words-active'>OFF</div>
+        </div>
+    </div>
+    <div class="toggle-content">
+        <div class="toggle-title">
+            <p>Toggle Animation</p>
+        </div>
+        <div class="toggle-para">
+            <p>Feeling like a festive elf, this past Christmas I decided to test my animation chops and make a snowman disappear using CSS. Aside from the creativity involved with the animation itself, I had fun learning how to layer elements, utilising z-index to build a dynamic UI. If you need an emotional ad ready for next Christmas, I am available. Feel free to check out the end product and the code behind it.</p>
+        </div>
+    </div>
+</div>
+<div class="react-user-data__container"></div>
     </main>
 
     <script src="/JS/header.js"></script>
-     
+    <script src="/JS/toggle.js"></script>
+    <script src="/react/index.html"></script>
 </body>
 </html>

@@ -7,5 +7,5 @@ module.exports = function (eleventyConfig) {
         dir: {
             layouts: "_includes",
         },
-    };
-};
+    }
+}
