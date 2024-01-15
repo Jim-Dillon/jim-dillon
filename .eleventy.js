@@ -3,6 +3,14 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/img");
     // eleventyConfig.addPassthroughCopy("./src/CNAME")
     eleventyConfig.addPassthroughCopy("src/css");
+    eleventyConfig.setBrowserSyncConfig({
+        open: true,
+        server: { 
+            baseDir: '_site',
+            serveStaticOptions: { 
+                base: '/jim-dillon' } 
+            }
+      });
     return {
         dir: {
             input: "src",
@@ -10,4 +18,5 @@ module.exports = function (eleventyConfig) {
             output: "_site"
         },
     };
+    
 };
