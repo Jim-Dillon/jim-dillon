@@ -294,6 +294,18 @@
 
 @media (min-width: 1150px) {
 
+    .home-intro {
+        width: 658px;
+    }
+
+    .home-intro__para {
+        margin-top: 6px;
+    }
+
+    .home-intro__para p {
+        font-size: 24px;
+    }
+
     .home-cards__container, .home-cards {
         height: 1734px;
     }
