@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/JS");
     eleventyConfig.addPassthroughCopy("./src/img");
-    // eleventyConfig.addPassthroughCopy("./src/CNAME")
+    eleventyConfig.addPassthroughCopy("./src/CNAME")
     eleventyConfig.addPassthroughCopy("./src/CSS");
     eleventyConfig.setBrowserSyncConfig({
         open: true,
