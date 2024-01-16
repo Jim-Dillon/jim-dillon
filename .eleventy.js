@@ -5,13 +5,14 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.setBrowserSyncConfig({
         open: true,
-        server: { baseDir: '_site', serveStaticOptions: { base: '/jim-dillon' } }
+        server: { baseDir: '_site', serveStaticOptions: { baseURL: '/jim-dillon' } }
     });
     return {
         dir: {
             input: "src",
             layouts: "_includes",
-            output: "_site"
+            output: "_site",
+            pathPrefix: "/jim-dillon/"
         },
     };
     
