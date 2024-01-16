@@ -72,7 +72,9 @@ site_title: Jim Dillon Development
         {{ content }}
     </main>
 
-    <script src="/JS/header.js"></script>
-    <script src="/JS/toggle.js"></script>
+    <script src="{{ '/JS/header.js' | url }}"></script>
+    <!-- <link rel="stylesheet" href="{{ '/JS/header.js' | url }}" /> -->
+    <!-- <script src="/JS/toggle.js"></script> -->
+    <script src="{{ '/JS/toggle.js' | url }}"></script>
 </body>
 </html>
