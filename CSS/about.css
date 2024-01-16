@@ -1,8 +1,8 @@
 .about-page__container {
     background-image: 
-        url(/img/blobs/about/blob7.svg), 
-        url(/img/blobs/about/blob8.svg),
-        url(/img/blobs/about/blob9.svg);
+        url(../img/blobs/about/blob7.svg), 
+        url(../img/blobs/about/blob8.svg),
+        url(../img/blobs/about/blob9.svg);
     background-position-y: -282px, 783px, 1318px;    
     background-repeat: no-repeat;    
     height: 1394px;
@@ -221,9 +221,9 @@
 @media (min-width: 950px) {
     .about-page__container {
         background-image: 
-            url(/img/blobs/about/blob10.svg), 
-            url(/img/blobs/about/blob12.svg),
-            url(/img/blobs/about/blob11.svg);
+            url(../img/blobs/about/blob10.svg), 
+            url(../img/blobs/about/blob12.svg),
+            url(../img/blobs/about/blob11.svg);
         background-position-y: -82px, 180px, 555px; 
         display: flex;
         flex-direction: row-reverse;
@@ -256,9 +256,9 @@
 @media (min-width: 1200px) {
     .about-page__container {
         background-image: 
-            url(/img/blobs/about/blob10.svg), 
-            url(/img/blobs/about/blob12.svg),
-            url(/img/blobs/about/blob11.svg);
+            url(../img/blobs/about/blob10.svg), 
+            url(../img/blobs/about/blob12.svg),
+            url(../img/blobs/about/blob11.svg);
         background-position-y: -82px, 493px, 704px; 
         height: 1000px;
         padding-top: 90px;
