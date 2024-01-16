@@ -1,0 +1,161 @@
+header {
+    background-color: white;
+    display: flex;
+    height: 79px;
+    justify-content: space-between;
+    padding: 24px 16px;
+    position: sticky;
+    transition: padding 0.3s ease, height 0.3s ease;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-scrolled {
+    background-color: #35FFDB;
+    height: 53px;
+    padding: 12px 16px;
+}
+
+.logo-jd-scrolled {
+    fill: #6C39FF; 
+}
+
+.d {
+    transition: transform 0.5s ease;
+}
+
+.hide {
+    display: none;
+}
+
+.logo-name {
+    position: relative;
+}
+
+.topnav {
+    display: none;
+}
+
+.github-link {
+    text-decoration: none;
+}
+
+.github-logo {
+    height: 29px;
+    fill: black;
+    transition: fill 0.1s ease;
+}
+
+.github-scrolled {
+    fill: #6C39FF;
+}
+
+.dropdown-link {
+    padding-left: 16px;
+}
+
+.dropdown-icon {
+    stroke: black;
+    transition: fill 0.3s ease;
+}
+
+.dropdown-scrolled {
+    stroke: #6C39FF;
+  }
+
+.dropdown-menu__container {
+    background-color: #2a166494;
+    display: none;
+    height: calc(100vh - 79px);
+    left: 0px;
+    position: absolute;
+    top: 79px;
+    transition: top 0.3s ease, height 0.3s ease;
+    width: 100%;
+    z-index: 10;
+}  
+
+.dropdown-menu__container-scrolled {
+    height: calc(100vh - 53px) !important;
+    top: 53px !important;
+}
+
+.dropdown-menu {
+    background-color: #6C39FF;
+    height: 100%;
+    max-width: 18rem;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    margin-left: 42px;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.dropdown-item {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.dropdown-item a {
+    color: #35FFDB;
+    text-decoration: none;
+}
+
+.dropdown-item a:hover {
+    color: white !important;
+}
+
+.dropdown-item a:visited {
+    color: #35FFDB;
+}
+
+
+@media (min-width: 900px) {
+
+    .nav-right {
+        display: flex;
+    }
+
+    .topnav {
+        display: block;
+    }
+
+    .topnav ul {
+        display: flex;
+        list-style: none;
+        margin: 10px 0 0 0;
+    }
+
+    .topnav-item {
+        color: #474747;
+        font-family: 'Aldrich', sans-serif;
+        font-size: 16px;
+        margin-right: 32px;
+    }
+
+    .topnav-scrolled {
+        color: #6C39FF !important;
+    }
+
+    .topnav-item a {
+        color: #474747;
+        text-decoration: none;
+    }
+
+    .topnav-item a:visited {
+        color: #474747;
+    }
+
+    .dropdown-link, .dropdown-menu__container {
+        display: none !important;
+    }
+}

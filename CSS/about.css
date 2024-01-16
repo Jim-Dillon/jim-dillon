@@ -1,0 +1,278 @@
+.about-page__container {
+    background-image: 
+        url(/img/blobs/about/blob7.svg), 
+        url(/img/blobs/about/blob8.svg),
+        url(/img/blobs/about/blob9.svg);
+    background-position-y: -282px, 783px, 1318px;    
+    background-repeat: no-repeat;    
+    height: 1394px;
+    width: 100%;
+}
+
+.about-content__container {
+    margin-bottom: 42px;
+}
+
+.about-intro__container {
+    padding-top: 28px;
+}
+
+.about-intro {
+    margin: 0 auto;
+    width: 358px;
+}
+
+.about-intro__title p {
+    color: #6C39FF;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.about-intro__para {
+    margin-top: 6px;
+}
+
+.about-intro__para p {
+    color: #474747;
+    font-family: 'KoHo', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.about-software__container {
+    margin-top: 60px;
+}
+
+.about-software {
+    margin: 0 auto;
+    width: 358px;
+}
+
+.about-software__title p {
+    color: #6C39FF;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 24px;
+}
+
+.about-software__bars {
+    height: 350px;
+}
+
+.sw-bars {
+    display: flex;
+    height: 16px;
+    margin-bottom: 22px;
+}
+
+.sw-bars p {
+    color: #474747;
+    font-family: 'Space Mono';
+    font-size: 14px;
+    margin: 0 0 0 40px;
+}
+
+.sw-bar { 
+    background: linear-gradient(to right, #6C39FF, #35FFDB);
+    border-radius: 48px;
+    flex-basis: 60%;
+    width: 100%;
+}
+
+.sw__layer-bar {
+    background-color: #F7F7F7;
+    border-radius: 0 48px 48px 0;
+    display: block;
+    height: 16px;
+    position: relative;
+}
+
+.html-bar, .css-bar {
+    left: 199px;
+    width: 0%;
+}
+
+.js-bar {
+    left: 184px;
+    width: 15%;
+}
+
+.react-bar {
+    left: 151px;
+    width: 30%;
+}
+
+.eleventy-bar {
+    left: 177px;
+    width: 18%;
+}
+
+.wordpress-bar {
+    left: 184px;
+    width: 15%;
+}
+
+.figma-bar {
+    left: 156px;
+    width: 28%;
+}
+
+.git-bar {
+    left: 173px;
+    width: 20%;
+}
+
+.storybook-bar {
+    left: 136px;
+    width: 37%;
+}
+
+.about-image__container {
+    margin: 0 auto;
+    width: 352px;
+}
+
+.about-image {
+    width: 352px;
+}
+
+.fudge-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.fudge-arrow {
+    margin-right: 11px;
+    margin-top: -43px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 650px) {
+
+    .about-page__container {
+        height: 1434px;
+    }
+
+    .about-content__container {
+        margin-bottom: 50px;
+        padding-top: 18px;
+    }
+
+    .about-intro, .about-software {
+        width: 450px;
+    }
+
+    .sw-bar {
+        flex-basis: 68%;
+    }
+
+    .html-bar, .css-bar {
+        left: 276px;
+        width: 0%;
+    }
+
+    .js-bar {
+        left: 242px;
+        width: 21%;
+    }
+
+    .react-bar {
+        left: 209px;
+        width: 32%;
+    }
+
+    .eleventy-bar {
+        left: 246px;
+        width: 20%;
+    }
+
+    .wordpress-bar {
+        left: 258px;
+        width: 16%;
+    }
+
+    .figma-bar {
+        left: 200px;
+        width: 35%;
+    }
+
+    .git-bar {
+        left: 245px;
+        width: 20%;
+    }
+
+    .storybook-bar {
+        left: 172px;
+        width: 44%;
+    }
+
+    .about-image__container, .about-image {
+        width: 444px;
+    }
+}
+
+@media (min-width: 950px) {
+    .about-page__container {
+        background-image: 
+            url(/img/blobs/about/blob10.svg), 
+            url(/img/blobs/about/blob12.svg),
+            url(/img/blobs/about/blob11.svg);
+        background-position-y: -82px, 180px, 555px; 
+        display: flex;
+        flex-direction: row-reverse;
+        height: 800px;
+        justify-content: center;
+        padding-top: 60px;
+    }
+
+    .about-content__container {
+        margin: 0 auto;
+        margin-left: 30px;
+        padding-top: 0px;
+    }
+
+    .about-intro__container {
+        padding-top: 0px;
+    }
+
+    .about-image__container {
+        margin-right: 30px;
+        width: 365px;
+    }
+
+    .about-image {
+        width: 365px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .about-page__container {
+        background-image: 
+            url(/img/blobs/about/blob10.svg), 
+            url(/img/blobs/about/blob12.svg),
+            url(/img/blobs/about/blob11.svg);
+        background-position-y: -82px, 493px, 704px; 
+        height: 1000px;
+        padding-top: 90px;
+    }
+
+    .about-content__container {
+        margin-left: 73px;
+    }
+
+    .about-image__container {
+        margin-right: 73px;
+    }
+
+    .about-image__container, .about-image {
+        width: 435px;
+    }
+}
