@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
             input: "src",
             layouts: "_includes",
             output: "_site",
-            pathPrefix: "/jim-dillon/"
+            // pathPrefix: "/jim-dillon/"
         },
     };
     
