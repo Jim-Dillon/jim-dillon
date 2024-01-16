@@ -151,6 +151,8 @@
     margin-top: 16px;
 }
 
+
+
 @media (min-width: 454px) {
     .trumps-iframe {
         height: 550px;
@@ -249,12 +251,24 @@
     margin-top: 0px;
 }
 
+.coffee-para p a:hover {
+    font-weight: 500;
+}
+
+.coffee-para p a:visited {
+    color: #474747;
+}
+
+.coffee-para .second-p {
+    margin-top: 16px;
+}
 
 @media (min-width: 900px) {
     .coffee-container {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: center;            padding-bottom: 50px;
+        justify-content: center;            
+        padding-bottom: 50px;
         padding-top: 50px;
     }
 
@@ -322,6 +336,10 @@
     line-height: 26px;
     margin-bottom: 0px;
     margin-top: 0px;
+}
+
+.toaster-para .second-p {
+    margin-top: 16px;
 }
 
 @media (min-width: 900px) {
