@@ -30,14 +30,14 @@
 .home-cards__container {
     background-image: 
         url(../img/blobs/blob5.svg), 
-        url(/img/blobs/blob4.svg), 
-        url(/img/blobs/blob6.svg), 
-        url(/img/blobs/blob5.svg), 
-        url(/img/blobs/blob4.svg), 
-        url(/img/blobs/blob6.svg),
-        url(/img/blobs/blob5.svg), 
-        url(/img/blobs/blob4.svg), 
-        url(/img/blobs/blob6.svg);
+        url(../img/blobs/blob4.svg), 
+        url(../img/blobs/blob6.svg), 
+        url(../img/blobs/blob5.svg), 
+        url(../img/blobs/blob4.svg), 
+        url(../img/blobs/blob6.svg),
+        url(../img/blobs/blob5.svg), 
+        url(../img/blobs/blob4.svg), 
+        url(../img/blobs/blob6.svg);
     background-position-y: 151px, -35px, 631px, 1244px, 903px, 1708px, 2133px, 1936px, 2490px;
     background-repeat: no-repeat;
     height: 2600px;
