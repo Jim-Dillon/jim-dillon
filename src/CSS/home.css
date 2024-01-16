@@ -82,7 +82,7 @@
 
 /* TEMPORARY UNTIL LFUG BACK */
 
-.home-card__two:hover {
+/* .home-card__two:hover {
     animation: none;
     background-color: #F7F7F7;
     border: 2px solid #C0C0C0;
@@ -100,7 +100,7 @@
 
 .home-card__two .home-card__link:hover .right-arrow {
     animation: none;
-}
+} */
 
 
 /* END OF TEMP CODE */
