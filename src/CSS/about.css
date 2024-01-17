@@ -102,8 +102,8 @@
 }
 
 .react-bar {
-    left: 151px;
-    width: 30%;
+    left: 160px;
+    width: 26%;
 }
 
 .eleventy-bar {
@@ -112,8 +112,8 @@
 }
 
 .wordpress-bar {
-    left: 184px;
-    width: 15%;
+    left: 188px;
+    width: 13%;
 }
 
 .figma-bar {
@@ -127,8 +127,8 @@
 }
 
 .storybook-bar {
-    left: 136px;
-    width: 37%;
+    left: 145px;
+    width: 33%;
 }
 
 .about-image__container {
@@ -179,13 +179,13 @@
     }
 
     .js-bar {
-        left: 242px;
-        width: 21%;
+        left: 252px;
+        width: 18%;
     }
 
     .react-bar {
-        left: 209px;
-        width: 32%;
+        left: 221px;
+        width: 28%;
     }
 
     .eleventy-bar {
@@ -199,8 +199,8 @@
     }
 
     .figma-bar {
-        left: 200px;
-        width: 35%;
+        left: 212px;
+        width: 31%;
     }
 
     .git-bar {
@@ -209,8 +209,8 @@
     }
 
     .storybook-bar {
-        left: 172px;
-        width: 44%;
+        left: 197px;
+        width: 36%;
     }
 
     .about-image__container, .about-image {
