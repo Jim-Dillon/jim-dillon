@@ -34,11 +34,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 // LOGO ANIMATION  
-const dPath = document.querySelector('.d');
-const jPath = document.querySelector('.j');
-const otherLettersElements = document.querySelectorAll('.other-letters');
 function handleScroll() {
     const shouldAddMargin = window.scrollY >= 50;
+    const dPath = document.querySelector('.d');
+    const jPath = document.querySelector('.j');
+    const otherLettersElements = document.querySelectorAll('.other-letters');
     if (shouldAddMargin) {
         dPath.style.transform = 'translate(-38px, 0)';
         dPath.classList.add('logo-jd-scrolled');
