@@ -27,10 +27,6 @@
 
 // LOGO ANIMATION  
 
-// const dPath = document.querySelector('.d') as HTMLElement;
-// const jPath = document.querySelector('.j') as HTMLElement;
-// const otherLettersElements = document.querySelectorAll('.other-letters') as NodeListOf<HTMLElement>;
-
 function handleScroll(): void {
   const shouldAddMargin = window.scrollY >= 50;
   const dPath = document.querySelector('.d') as HTMLElement;
