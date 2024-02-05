@@ -14,6 +14,7 @@
             if (github) github.classList.add('github-scrolled');
             if (topNavOne) topNavOne.classList.add('topnav-scrolled');
             if (topNavTwo) topNavTwo.classList.add('topnav-scrolled');
+            
         } else {
             if (header) header.classList.remove('header-scrolled');
             if (dropdown) dropdown.classList.remove('dropdown-scrolled');

@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 topNavOne.classList.add('topnav-scrolled');
             if (topNavTwo)
                 topNavTwo.classList.add('topnav-scrolled');
+            console.log('Hello');
         }
         else {
             if (header)
