@@ -1,29 +1,5 @@
 // TOPNAV ANIMATION
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     const header = document.querySelector('header');
-//     const dropdown = document.querySelector('.dropdown-icon'); 
-//     const github = document.querySelector('.github-logo');
-//     const topNavOne = document.querySelector('.topnav-item__one a');
-//     const topNavTwo = document.querySelector('.topnav-item__two a'); 
-  
-//     window.addEventListener('scroll', function() {
-//       if (window.scrollY > 50) {
-//         header.classList.add('header-scrolled');
-//         dropdown.classList.add('dropdown-scrolled');
-//         github.classList.add('github-scrolled');
-//         topNavOne.classList.add('topnav-scrolled');
-//         topNavTwo.classList.add('topnav-scrolled');
-//       } else {
-//         header.classList.remove('header-scrolled');
-//         dropdown.classList.remove('dropdown-scrolled');
-//         github.classList.remove('github-scrolled');
-//         topNavOne.classList.remove('topnav-scrolled');
-//         topNavTwo.classList.remove('topnav-scrolled');
-//       }
-//     });
-//   });
-
   document.addEventListener("DOMContentLoaded", function() {
     const header: HTMLElement | null = document.querySelector('header');
     const dropdown: HTMLElement | null = document.querySelector('.dropdown-icon'); 
@@ -50,34 +26,6 @@
 
 
 // LOGO ANIMATION  
-
-//   const dPath = document.querySelector('.d');
-//   const jPath = document.querySelector('.j');
-//   const otherLettersElements = document.querySelectorAll('.other-letters');
-
-// function handleScroll() {
-//     const shouldAddMargin = window.scrollY >= 50;
-
-//     if (shouldAddMargin) {
-//         dPath.style.transform = 'translate(-38px, 0)';
-//         dPath.classList.add('logo-jd-scrolled');
-//         jPath.classList.add('logo-jd-scrolled');
-//         otherLettersElements.forEach(element => {
-//             element.classList.add('hide');
-//         });
-//     } else {
-//         dPath.style.transform = 'none';
-//         dPath.classList.remove('logo-jd-scrolled');
-//         jPath.classList.remove('logo-jd-scrolled');
-//         otherLettersElements.forEach(element => {
-//             element.classList.remove('hide');
-//         });
-//     }
-// }
-
-// window.addEventListener('scroll', handleScroll);
-
-// handleScroll();
 
 const dPath = document.querySelector('.d') as HTMLElement;
 const jPath = document.querySelector('.j') as HTMLElement;
