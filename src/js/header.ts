@@ -1,55 +1,106 @@
 // TOPNAV ANIMATION
 
-document.addEventListener("DOMContentLoaded", function() {
-    const header = document.querySelector('header');
-    const dropdown = document.querySelector('.dropdown-icon'); 
-    const github = document.querySelector('.github-logo');
-    const topNavOne = document.querySelector('.topnav-item__one a');
-    const topNavTwo = document.querySelector('.topnav-item__two a'); 
+// document.addEventListener("DOMContentLoaded", function() {
+//     const header = document.querySelector('header');
+//     const dropdown = document.querySelector('.dropdown-icon'); 
+//     const github = document.querySelector('.github-logo');
+//     const topNavOne = document.querySelector('.topnav-item__one a');
+//     const topNavTwo = document.querySelector('.topnav-item__two a'); 
+  
+//     window.addEventListener('scroll', function() {
+//       if (window.scrollY > 50) {
+//         header.classList.add('header-scrolled');
+//         dropdown.classList.add('dropdown-scrolled');
+//         github.classList.add('github-scrolled');
+//         topNavOne.classList.add('topnav-scrolled');
+//         topNavTwo.classList.add('topnav-scrolled');
+//       } else {
+//         header.classList.remove('header-scrolled');
+//         dropdown.classList.remove('dropdown-scrolled');
+//         github.classList.remove('github-scrolled');
+//         topNavOne.classList.remove('topnav-scrolled');
+//         topNavTwo.classList.remove('topnav-scrolled');
+//       }
+//     });
+//   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const header: HTMLElement | null = document.querySelector('header');
+    const dropdown: HTMLElement | null = document.querySelector('.dropdown-icon'); 
+    const github: HTMLElement | null = document.querySelector('.github-logo');
+    const topNavOne: HTMLAnchorElement | null = document.querySelector('.topnav-item__one a');
+    const topNavTwo: HTMLAnchorElement | null = document.querySelector('.topnav-item__two a'); 
   
     window.addEventListener('scroll', function() {
-      if (window.scrollY > 50) {
-        header.classList.add('header-scrolled');
-        dropdown.classList.add('dropdown-scrolled');
-        github.classList.add('github-scrolled');
-        topNavOne.classList.add('topnav-scrolled');
-        topNavTwo.classList.add('topnav-scrolled');
-      } else {
-        header.classList.remove('header-scrolled');
-        dropdown.classList.remove('dropdown-scrolled');
-        github.classList.remove('github-scrolled');
-        topNavOne.classList.remove('topnav-scrolled');
-        topNavTwo.classList.remove('topnav-scrolled');
-      }
+        if (window.scrollY > 50) {
+            if (header) header.classList.add('header-scrolled');
+            if (dropdown) dropdown.classList.add('dropdown-scrolled');
+            if (github) github.classList.add('github-scrolled');
+            if (topNavOne) topNavOne.classList.add('topnav-scrolled');
+            if (topNavTwo) topNavTwo.classList.add('topnav-scrolled');
+        } else {
+            if (header) header.classList.remove('header-scrolled');
+            if (dropdown) dropdown.classList.remove('dropdown-scrolled');
+            if (github) github.classList.remove('github-scrolled');
+            if (topNavOne) topNavOne.classList.remove('topnav-scrolled');
+            if (topNavTwo) topNavTwo.classList.remove('topnav-scrolled');
+        }
     });
-  });
+});
+
 
 // LOGO ANIMATION  
 
-  const dPath = document.querySelector('.d');
-  const jPath = document.querySelector('.j');
-  const otherLettersElements = document.querySelectorAll('.other-letters');
+//   const dPath = document.querySelector('.d');
+//   const jPath = document.querySelector('.j');
+//   const otherLettersElements = document.querySelectorAll('.other-letters');
 
-function handleScroll() {
-    const shouldAddMargin = window.scrollY >= 50;
+// function handleScroll() {
+//     const shouldAddMargin = window.scrollY >= 50;
 
-    if (shouldAddMargin) {
-        // dPath.setAttribute('transform', 'translate(-38, 0)');
-        dPath.style.transform = 'translate(-38px, 0)';
-        dPath.classList.add('logo-jd-scrolled');
-        jPath.classList.add('logo-jd-scrolled');
-        otherLettersElements.forEach(element => {
-            element.classList.add('hide');
-        });
-    } else {
-        // dPath.removeAttribute('transform');
-        dPath.style.transform = 'none';
-        dPath.classList.remove('logo-jd-scrolled');
-        jPath.classList.remove('logo-jd-scrolled');
-        otherLettersElements.forEach(element => {
-            element.classList.remove('hide');
-        });
-    }
+//     if (shouldAddMargin) {
+//         dPath.style.transform = 'translate(-38px, 0)';
+//         dPath.classList.add('logo-jd-scrolled');
+//         jPath.classList.add('logo-jd-scrolled');
+//         otherLettersElements.forEach(element => {
+//             element.classList.add('hide');
+//         });
+//     } else {
+//         dPath.style.transform = 'none';
+//         dPath.classList.remove('logo-jd-scrolled');
+//         jPath.classList.remove('logo-jd-scrolled');
+//         otherLettersElements.forEach(element => {
+//             element.classList.remove('hide');
+//         });
+//     }
+// }
+
+// window.addEventListener('scroll', handleScroll);
+
+// handleScroll();
+
+const dPath = document.querySelector('.d') as HTMLElement;
+const jPath = document.querySelector('.j') as HTMLElement;
+const otherLettersElements = document.querySelectorAll('.other-letters') as NodeListOf<HTMLElement>;
+
+function handleScroll(): void {
+  const shouldAddMargin = window.scrollY >= 50;
+
+  if (shouldAddMargin) {
+    dPath.style.transform = 'translate(-38px, 0)';
+    dPath.classList.add('logo-jd-scrolled');
+    jPath.classList.add('logo-jd-scrolled');
+    otherLettersElements.forEach(element => {
+      element.classList.add('hide');
+    });
+  } else {
+    dPath.style.transform = 'none';
+    dPath.classList.remove('logo-jd-scrolled');
+    jPath.classList.remove('logo-jd-scrolled');
+    otherLettersElements.forEach(element => {
+      element.classList.remove('hide');
+    });
+  }
 }
 
 window.addEventListener('scroll', handleScroll);
@@ -57,10 +108,11 @@ window.addEventListener('scroll', handleScroll);
 handleScroll();
 
 
+
 // MENU CONTAINER RESIZE ANIMATION
 
 window.addEventListener('scroll', function() {
-    var menuContainer = document.querySelector('.dropdown-menu__container');
+    var menuContainer = document.querySelector('.dropdown-menu__container') as HTMLElement;
     var scrollPosition = window.scrollY;
 
     if (scrollPosition > 50) {
@@ -74,9 +126,9 @@ window.addEventListener('scroll', function() {
 // DROPDOWN TOGGLE ON/OFF
 
 document.addEventListener('DOMContentLoaded', function () {
-    var dropdownLink = document.querySelector('.dropdown-link');
-    var dropdownMenuContainer = document.querySelector('.dropdown-menu__container');
-    var dropdownIcon = document.querySelector('.dropdown-icon');
+    var dropdownLink = document.querySelector('.dropdown-link') as HTMLElement;
+    var dropdownMenuContainer = document.querySelector('.dropdown-menu__container') as HTMLElement;
+    var dropdownIcon = document.querySelector('.dropdown-icon') as HTMLElement;
 
     dropdownLink.addEventListener('click', function (event) {
       event.preventDefault();
