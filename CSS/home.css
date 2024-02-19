@@ -38,9 +38,9 @@
         url(../img/blobs/blob5.svg), 
         url(../img/blobs/blob4.svg), 
         url(../img/blobs/blob6.svg);
-    background-position-y: 151px, -35px, 631px, 1244px, 903px, 1708px, 2133px, 1936px, 2490px;
+    background-position-y: 151px, -35px, 631px, 1244px, 903px, 1708px, 2240px, 1936px, 2800px;
     background-repeat: no-repeat;
-    height: 2600px;
+    height: 2988px;
     margin: 0 auto;
     width: 100%;
 }
@@ -180,7 +180,7 @@
 
 @media (min-width: 536px) {
     .home-cards__container {
-        height: 2236px;
+        height: 2564px;
     }
 
     .home-card {
