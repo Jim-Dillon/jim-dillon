@@ -38,9 +38,9 @@
         url(../img/blobs/blob5.svg), 
         url(../img/blobs/blob4.svg), 
         url(../img/blobs/blob6.svg);
-    background-position-y: 151px, -35px, 631px, 1244px, 903px, 1708px, 2240px, 1936px, 2800px;
+    background-position-y: 151px, -35px, 631px, 1244px, 903px, 1708px, 2319px, 1936px, 2935px;
     background-repeat: no-repeat;
-    height: 2988px;
+    height: 3170px;
     margin: 0 auto;
     width: 100%;
 }
@@ -192,7 +192,7 @@
 @media (min-width: 655px) {
 
     .home-cards__container, .home-cards {
-        height: 1715px;
+        height: 1790px;
     }
 
     .home-card {
@@ -225,7 +225,7 @@
 @media (min-width: 772px) {
 
     .home-cards__container, .home-cards {
-        height: 1482px;
+        height: 1565px;
         background-position-y: 151px, -35px, 794px, 1244px, 903px, 1708px, 2133px, 1936px, 2490px;
     }
 
@@ -244,7 +244,7 @@
 @media (min-width: 952px) {
 
     .home-cards__container, .home-cards {
-        height: 1270px;
+        height: 1334px;
     }
     
     .home-card {
@@ -267,7 +267,7 @@
     }
 
     .home-cards__container, .home-cards {
-        height: 1734px;
+        height: 1788px;
     }
 
     .home-cards__container {
@@ -333,14 +333,14 @@
     }
 
     .home-cards__container, .home-cards {
-        height: 1640px;
+        height: 1786px;
     }
 }
 
 @media (min-width: 1338px) {
 
     .home-cards__container {
-        background-position-y: 173px, 35px, 1005px, 1444px, 1040px, 1708px;
+        background-position-y: 173px, 35px, 1030px, 1444px, 1040px, 1708px;
     }
 
     .home-card {
