@@ -181,23 +181,23 @@
 
 @media (min-width: 536px) {
     .home-cards__container {
-        height: 2564px;
+        height: 2812px;
     }
 
     .home-card {
-        height: 295px;
+        height: 328px;
     }
 }
 
 @media (min-width: 655px) {
 
     .home-cards__container, .home-cards {
-        height: 1790px;
+        height: 1922px;
     }
 
     .home-card {
         flex-basis: 47%;
-        height: 430px;
+        height: 464px;
         max-width: 47%;
     }
 
@@ -244,11 +244,11 @@
 @media (min-width: 952px) {
 
     .home-cards__container, .home-cards {
-        height: 1334px;
+        height: 1392px;
     }
     
     .home-card {
-        height: 314px;
+        height: 328px;
     }
 }
 
