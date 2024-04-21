@@ -37,10 +37,12 @@
         url(../img/blobs/blob6.svg),
         url(../img/blobs/blob5.svg), 
         url(../img/blobs/blob4.svg), 
-        url(../img/blobs/blob6.svg);
-    background-position-y: 151px, -35px, 631px, 1244px, 903px, 1708px, 2319px, 1936px, 2935px;
+        url(../img/blobs/blob6.svg),
+        url(../img/blobs/blob4.svg),
+        url(../img/blobs/blob5.svg);
+    background-position-y: 151px, -35px, 631px, 1244px, 903px, 1708px, 2319px, 1936px, 2883px, 3000px, 3248px;
     background-repeat: no-repeat;
-    height: 3170px;
+    height: 3575px;
     margin: 0 auto;
     width: 100%;
 }
@@ -181,7 +183,7 @@
 
 @media (min-width: 536px) {
     .home-cards__container {
-        height: 2812px;
+        height: 3190px;
     }
 
     .home-card {
@@ -192,7 +194,11 @@
 @media (min-width: 655px) {
 
     .home-cards__container, .home-cards {
-        height: 1922px;
+        height: 2450px;
+    }
+
+    .home-cards__container {
+        background-position-y: 151px, -35px, 631px, 1244px, 903px, 1860px, 2271px, 2001px, 2878px, 3000px, 3248px;
     }
 
     .home-card {
@@ -225,8 +231,18 @@
 @media (min-width: 772px) {
 
     .home-cards__container, .home-cards {
-        height: 1565px;
-        background-position-y: 151px, -35px, 794px, 1244px, 903px, 1708px, 2133px, 1936px, 2490px;
+        height: 1978px;
+        background-position-y: 151px, -35px, 794px, 1284px, 930px, 1845px;
+    }
+
+    .home-cards__container {
+        background-image: 
+        url(../img/blobs/blob5.svg), 
+        url(../img/blobs/blob4.svg), 
+        url(../img/blobs/blob6.svg), 
+        url(../img/blobs/blob5.svg), 
+        url(../img/blobs/blob4.svg), 
+        url(../img/blobs/blob6.svg);
     }
 
     .home-card {
@@ -244,7 +260,7 @@
 @media (min-width: 952px) {
 
     .home-cards__container, .home-cards {
-        height: 1392px;
+        height: 1760px;
     }
     
     .home-card {
@@ -280,7 +296,7 @@
         max-width: 30%;
     }
 
-    .home-card__one, .home-card__two, .home-card__four, .home-card__five, .home-card__seven {
+    .home-card__one, .home-card__two, .home-card__four, .home-card__five, .home-card__seven, .home-card__eight {
         margin-left: 2rem;
     } 
 
