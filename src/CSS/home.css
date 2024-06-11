@@ -39,10 +39,11 @@
         url(../img/blobs/blob4.svg),
         url(../img/blobs/blob6.svg),
         url(../img/blobs/blob4.svg),
-        url(../img/blobs/blob5.svg);
-    background-position-y: 151px, -35px, 631px, 1244px, 903px, 1708px, 2319px, 1936px, 2883px, 3000px, 3248px;
+        url(../img/blobs/blob5.svg),
+        url(../img/blobs/blob6.svg);
+    background-position-y: 151px, -35px, 686px, 1244px, 903px, 1708px, 2319px, 1936px, 2883px, 3080px, 3529px, 4143px;
     background-repeat: no-repeat;
-    height: 3575px;
+    height: 4382px;
     margin: 0 auto;
     width: 100%;
 }
@@ -186,7 +187,7 @@
 
 @media (min-width: 536px) {
     .home-cards__container {
-        height: 3190px;
+        height: 3910px;
     }
 
     .home-card {
@@ -198,11 +199,11 @@
 
     .home-cards__container,
     .home-cards {
-        height: 2450px;
+        height: 2930px;
     }
 
     .home-cards__container {
-        background-position-y: 151px, -35px, 631px, 1244px, 903px, 1860px, 2271px, 2001px, 2878px, 3000px, 3248px;
+        background-position-y: 151px, -35px, 713px, 1133px, 775px, 1675px, 2324px, 1935px, 2801px, 3000px, 3248px
     }
 
     .home-card {
@@ -240,8 +241,8 @@
 
     .home-cards__container,
     .home-cards {
-        height: 1978px;
-        background-position-y: 151px, -35px, 794px, 1284px, 930px, 1845px;
+        height: 2380px;
+        background-position-y: 151px, -35px, 794px, 1284px, 930px, 1845px, 2284px, 2500px, ;
     }
 
     .home-cards__container {
@@ -251,7 +252,9 @@
             url(../img/blobs/blob6.svg),
             url(../img/blobs/blob5.svg),
             url(../img/blobs/blob4.svg),
-            url(../img/blobs/blob6.svg);
+            url(../img/blobs/blob6.svg),
+            url(../img/blobs/blob5.svg),
+            url(../img/blobs/blob4.svg);
     }
 
     .home-card {
@@ -270,11 +273,15 @@
 
     .home-cards__container,
     .home-cards {
-        height: 1760px;
+        height: 2116px;
     }
 
     .home-card {
         height: 328px;
+    }
+
+    .home-cards__container {
+        background-position-y: 151px, -35px, 713px, 1048px, 775px, 1675px, 2324px, 1739px, 2801px, 3000px, 3248px;
     }
 }
 
@@ -320,7 +327,8 @@
     .home-card__four,
     .home-card__five,
     .home-card__seven,
-    .home-card__eight {
+    .home-card__eight,
+    .home-card__ten {
         margin-left: 2rem;
     }
 
